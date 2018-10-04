@@ -1,7 +1,3 @@
-/* =================================
-  Flexbox
-==================================== */
-
 .container {
 	display: flex;
 	flex-direction: column;
@@ -17,10 +13,4 @@
 
 .item {
 	flex:1 100%;
-}
-
-@media (min-width:799px){
-	.item-1{
-		margin-right:auto;
-	}
 }
