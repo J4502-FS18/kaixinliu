@@ -3,7 +3,7 @@
 	flex-direction: column;
 }
 
-@media (min-width:599px){
+@media (min-width:666px){
 
 .container{
 		flex-direction: row;
