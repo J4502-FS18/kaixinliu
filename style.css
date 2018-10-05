@@ -27,25 +27,25 @@ img{
   border:0;
 }
 
-ul{
+.container{
   padding:0;
 }
 
-#nav li{
+.item {
   list-style: none;
   text-align: center;
   width: 95%;
   padding:5px;
   background-color: #98bf21;
-  margin:0 auto;
-  border-bottom:2px solid #ffffff;
+  margin:5 auto;
+  border:2px solid #ffffff;
 }
 
 #nav {
-  padding:0;
+  padding:0px;
 }
 
-#nav a:link, #nav a:visited{
+.item a:link, .item a:visited{
   color:#ffffff;
   font-weight: bold;
   text-decoration:none;
@@ -53,7 +53,8 @@ ul{
   padding:4px;
 }
 
-#nav li:hover, #nav li:active{
+
+.item:hover, .item:active{
   background-color: #7a991a;
 }
 
@@ -75,4 +76,8 @@ ul{
 
 #center{
 text-align: center;
+}
+
+ul{
+  padding:0;
 }
