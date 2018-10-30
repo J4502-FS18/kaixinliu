@@ -1,10 +1,13 @@
 p{
   color:grey;
-font-family: 'Noto Serif', serif;
+font-family: 'Gothic A1', sans-serif;
 }
 
 h1{
-font-family: 'Lobster', cursive;
+font-family: 'Spectral SC', serif;
+font-size: 3em;
+text-align: center;
+color: #373737;
 }
 
 body{
@@ -36,7 +39,7 @@ img{
   text-align: center;
   width: 95%;
   padding:5px;
-  background-color: #c0b283;
+  background-color: #373737;
   margin:5px auto;
 
 }
@@ -47,15 +50,15 @@ img{
 
 .item a:link, .item a:visited{
   color:#ffffff;
-  font-weight: bold;
+
   text-decoration:none;
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Gothic A1', sans-serif;
   padding:4px;
 }
 
 
 .item:hover, .item:active{
-  background-color: #c0b3a0;
+  background-color: #c0b283;
 }
 
 .caption{
@@ -69,10 +72,12 @@ img{
 
 #footer{
   color:black;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Gothic A1', sans-serif;
   font-size:0.8em;
   border-top:1px solid black;
   text-align: center;
+  font-weight: lighter;
+  font-style: italic;
 }
 
 #center{
@@ -94,4 +99,17 @@ h2 {
 
 .cards p{
   font-size: 0.7em;
+}
+
+#center a:link, #center a:visited{
+  color:gray;
+  text-decoration:none;
+  font-family: 'Gothic A1', sans-serif;
+  padding:4px;
+}
+
+#footer a:link, #footer a:visited{
+  color:black;
+  font-style: italic;
+  font-weight: lighter;
 }
