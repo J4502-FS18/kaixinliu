@@ -113,3 +113,10 @@ h2 {
   font-style: italic;
   font-weight: lighter;
 }
+
+@media screen and (min-width:666px){
+  .menu-trigger{
+       display:none;
+     }
+
+}
