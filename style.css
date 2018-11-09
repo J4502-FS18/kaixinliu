@@ -18,11 +18,16 @@ body{
   width:100%;
 }
 
+#header a{
+  text-decoration: none;
+}
+
 #container{
   background-color:#ffffff;
   width:80%;
   margin:0 auto;
   padding:20px 30px;
+  text-align: center;
 }
 
 img {
@@ -113,10 +118,14 @@ h2 {
   font-style: italic;
   font-weight: lighter;
 }
-
+#nav .container {
+  display:none;
+}
 @media screen and (min-width:666px){
   .menu-trigger{
        display:none;
      }
-
+#nav .container{
+  display: flex;
+}
 }
